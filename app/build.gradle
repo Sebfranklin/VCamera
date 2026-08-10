@@ -95,7 +95,7 @@ dependencies {
     implementation 'com.tbuonomo:dotsindicator:4.2'
     implementation 'com.afollestad.material-dialogs:core:3.3.0'
     implementation 'com.afollestad.material-dialogs:input:3.3.0'
-    implementation 'com.github.nukc.stateview:kotlin:2.2.0'
+    implementation 'com.github.nukc:StateView:2.2.0'
     implementation project(':libs:catloadinglibrary')
     implementation 'com.github.Ferfalk:SimpleSearchView:0.2.0'
     implementation 'com.github.Othershe:CornerLabelView:1.0.0'
@@ -104,5 +104,4 @@ dependencies {
     implementation project(':libs:floatingview')
 
     implementation project(':opensdk')
-    implementation 'virtual.camera.camera:camera:1.1.2'
 }
