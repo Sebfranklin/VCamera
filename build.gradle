@@ -2,9 +2,8 @@
 buildscript {
     ext.kotlin_version = "1.5.21"
     repositories {
-        jcenter()
-        mavenCentral()
         google()
+        mavenCentral()
         maven { url 'https://jitpack.io' }
     }
     dependencies {
@@ -15,12 +14,10 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
-        mavenCentral()
         google()
+        mavenCentral()
         maven { url 'https://jitpack.io' }
-        maven { url "https://raw.githubusercontent.com/andvipgroup/CameraLib/master" }
-        maven { url "https://raw.githubusercontent.com/linyia01/CameraLib/master" }
+        maven { url 'https://gitee.com/cbfg5210/mvn_repo/raw/master' }
     }
 }
 
