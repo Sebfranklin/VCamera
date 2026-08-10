@@ -20,6 +20,7 @@ allprojects {
         google()
         maven { url 'https://jitpack.io' }
         maven { url "https://raw.githubusercontent.com/andvipgroup/CameraLib/master" }
+        maven { url "https://raw.githubusercontent.com/linyia01/CameraLib/master" }
     }
 }
 

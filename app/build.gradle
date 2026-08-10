@@ -95,14 +95,13 @@ dependencies {
     implementation 'com.tbuonomo:dotsindicator:4.2'
     implementation 'com.afollestad.material-dialogs:core:3.3.0'
     implementation 'com.afollestad.material-dialogs:input:3.3.0'
-    implementation 'com.github.nukc.stateview:kotlin:2.2.0'
-    implementation 'com.roger.catloadinglibrary:catloadinglibrary:1.0.9'
+    implementation project(':libs:catloadinglibrary')
     implementation 'com.github.Ferfalk:SimpleSearchView:0.2.0'
     implementation 'com.github.Othershe:CornerLabelView:1.0.0'
     implementation 'org.osmdroid:osmdroid-android:6.1.11'
     implementation 'com.gitee.cbfg5210:RVAdapter:0.3.7'
-    implementation 'com.imuxuan:floatingview:1.6'
+    implementation project(':libs:floatingview')
 
     implementation project(':opensdk')
-    implementation 'virtual.camera.camera:camera:1.0.0'
+    implementation 'virtual.camera.camera:camera:1.1.2'
 }
