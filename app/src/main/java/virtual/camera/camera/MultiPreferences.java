@@ -9,7 +9,7 @@ public class MultiPreferences {
 
     private MultiPreferences() {
         try {
-            Context context = virtual.camera.app.app.App.Companion.getApp();
+            Context context = virtual.camera.app.app.App.getContext();
             if (context != null) {
                 mPrefs = context.getSharedPreferences("vcamera_prefs", Context.MODE_PRIVATE);
             }
